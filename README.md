@@ -1,1 +1,1 @@
-# Crypto_Transformer
+# Crypto Transformer Model
