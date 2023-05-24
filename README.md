@@ -27,6 +27,10 @@ I used
 * linear function to capture the non-periodic component 
 * sine function to capture the periodic component.
 
+## Resultpred
+![alt text](./prediction.png)
+The above graph is the prediction of the training, validation, test set.
+
 ## Future Improvements
 ### Distribution differences: 
 The discrepancy in performance between the validation and test sets can potentially be attributed to differences in their distributions compared to the training set. By utilizing approaches specifically designed for time series analysis, such as forward-chaining validation, we can enhance the model's generalization capacity. 
