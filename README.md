@@ -5,7 +5,7 @@ In the past, LSTM models are widely used for time series analysis and price pred
 By leveraging the self-attention mechanism, Transformers can model the interactions between different time steps and capture dependencies beyond local patterns. 
 
 ## Data Source
-The data, btc_pruce.csv, is extracted from the Alpaca API, which is the historical bar data for Bitcoin, specifically from January 1, 2020, to May 10, 2023. The required information for modeling includes the open price, close price, high price, low price, and volume.
+btc_pruce.csv is the data extracted from the Alpaca API. It is the historical bar data for Bitcoin, specifically from January 1, 2020, to May 10, 2023. The required information for modeling includes the open price, close price, high price, low price, and volume.
 
 
 ## Model Structure
