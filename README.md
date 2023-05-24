@@ -5,7 +5,8 @@ In the past, LSTM models are widely used for time series analysis and price pred
 By leveraging the self-attention mechanism, Transformers can model the interactions between different time steps and capture dependencies beyond local patterns. 
 
 ## Data Source
-The data is extracted from the Alpaca API, which is the historical bar data for Bitcoin, specifically from January 1, 2020, to May 10, 2023. The required information for modeling includes the open price, close price, high price, low price, and volume.
+The data, btc_pruce.csv, is extracted from the Alpaca API, which is the historical bar data for Bitcoin, specifically from January 1, 2020, to May 10, 2023. The required information for modeling includes the open price, close price, high price, low price, and volume.
+
 
 ## Model Structure
 ![alt text](./model_structure.png)
@@ -34,7 +35,7 @@ The above graph is the prediction of the training, validation, test set.
 
 ## Future Improvements
 ### Distribution differences: 
-From the plot of validation loss, it infers that there might be might be fitting issues like overfitting in the model since there is a quick surge and quick drop when the training epoch increases. The discrepancy in performance between the validation and test sets can potentially be attributed to differences in their distributions compared to the training set. By utilizing approaches specifically designed for time series analysis, such as forward-chaining validation, we can enhance the model's generalization capacity. 
+The discrepancy in performance between the validation and test sets can potentially be attributed to differences in their distributions compared to the training set. By utilizing approaches specifically designed for time series analysis, such as forward-chaining validation, we can enhance the model's generalization capacity. 
 
 ### Outliers:
 When dealing with outliers, such as large surges in the data, it can be challenging for the model to capture these unusual behaviors accurately. To address this, two simple approaches are to consider using a larger moving average window or segmenting the time series into different periods for modeling.
