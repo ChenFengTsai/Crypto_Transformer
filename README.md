@@ -27,8 +27,8 @@ I used
 * linear function to capture the non-periodic component 
 * sine function to capture the periodic component.
 
-## Resultpred
-![alt text](./prediction.png)
+## Result
+![alt text](./prediction)
 The above graph is the prediction of the training, validation, test set.
 
 ## Future Improvements
