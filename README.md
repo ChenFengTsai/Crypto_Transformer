@@ -28,7 +28,7 @@ I used
 * sine function to capture the periodic component.
 
 ## Result
-![alt text](./prediction)
+![alt text](./prediction.png)
 The above graph is the prediction of the training, validation, test set.
 
 ## Future Improvements
