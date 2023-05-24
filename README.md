@@ -1,7 +1,7 @@
 # Crypto Transformer Model
 
 ## Overview
-LSTM models are widely used in the past for time series analysis and price prediction; however, in the recently year, Transformer models (with positional embeddings) have been increasingly used to predict price movements in various financial markets.
+In the past, LSTM models are widely used for time series analysis and price prediction. However, in the recently year, Transformer models (with positional embeddings) have been increasingly used to predict price movements in various financial markets.
 By leveraging the self-attention mechanism, Transformers can model the interactions between different time steps and capture dependencies beyond local patterns. 
 
 ## Model Structure
