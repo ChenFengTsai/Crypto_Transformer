@@ -34,7 +34,7 @@ The above graph is the prediction of the training, validation, test set.
 
 ## Future Improvements
 ### Distribution differences: 
-The discrepancy in performance between the validation and test sets can potentially be attributed to differences in their distributions compared to the training set. By utilizing approaches specifically designed for time series analysis, such as forward-chaining validation, we can enhance the model's generalization capacity. 
+From the plot of validation loss, it infers that there might be might be fitting issues like overfitting in the model since there is a quick surge and quick drop when the training epoch increases. The discrepancy in performance between the validation and test sets can potentially be attributed to differences in their distributions compared to the training set. By utilizing approaches specifically designed for time series analysis, such as forward-chaining validation, we can enhance the model's generalization capacity. 
 
 ### Outliers:
 When dealing with outliers, such as large surges in the data, it can be challenging for the model to capture these unusual behaviors accurately. To address this, two simple approaches are to consider using a larger moving average window or segmenting the time series into different periods for modeling.
